@@ -52,8 +52,11 @@ h3{
     grid-template-columns: auto ;
 }
 
-.caja{
+.caja:hover{
     text-align: auto ;
+    background-color: darkred;
+  
+    
 }
 
 img{
