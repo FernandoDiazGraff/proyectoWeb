@@ -1,0 +1,90 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/vectors/carbon-kevlar-red-vector-id480542744?k=6&m=480542744&s=170667a&w=0&h=0sctkTNAiLdYhEncSpdEobrLwPXo_ut4fBF1iDfBxcc=);
+    background-size: cover ;
+}
+
+h1{
+     color: whitesmoke;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+ }
+
+
+nav ul li{
+    background-color: red;
+    margin: 15px ;
+    display: inline-block;
+    text-align: center;
+} 
+
+nav{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+}
+
+
+a{ 
+    text-decoration: none;
+    color: whitesmoke;  
+}
+
+h3{
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.grid{
+    background-color: orangered;
+    width: 80%;
+    padding: 10 px; 
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: auto ;
+}
+
+.caja{
+    text-align: auto ;
+}
+
+img{
+    justify-self: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+p{
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+legend{
+    color: whitesmoke;
+}
+
+label{
+    color: whitesmoke;
+}
+
+h6{
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 480px) {
+    .grid{
+        background-color: green;
+        width: 90%;
+    }
+        
+}
