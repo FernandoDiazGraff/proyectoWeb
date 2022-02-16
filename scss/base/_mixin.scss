@@ -1,0 +1,19 @@
+
+@mixin formulario {
+    background-color: darkorange;
+    transform: scale(90%);
+}
+
+.formulario{
+    @include formulario
+}
+
+
+@mixin tamaño {
+    transform: scale(60%);
+    
+}
+
+h4{
+    @include tamaño
+}
