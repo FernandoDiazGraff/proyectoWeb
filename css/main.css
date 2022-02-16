@@ -57,8 +57,16 @@ h3 {
   width: 15%;
   margin-left: 40%; }
 
+iframe {
+  display: flex;
+  align-self: center;
+  justify-content: center; }
+
 p {
-  color: whitesmoke; }
+  color: whitesmoke;
+  display: grid;
+  align-self: center;
+  justify-content: center; }
 
 .alineado {
   display: grid;

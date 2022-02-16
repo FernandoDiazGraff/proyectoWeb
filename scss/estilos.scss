@@ -66,8 +66,16 @@ h3{
     margin-left: 40%;
 }
 
+iframe{
+    display: grid;
+    margin-left: 10%;  
+}
+
 p{
     color: $color-texto;
+    display: grid;  
+    align-self: center;
+    justify-content: center;
 }
 
 .alineado{
